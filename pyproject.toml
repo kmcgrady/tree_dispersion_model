@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "karen"
+version = "0.1.0"
+description = ""
+authors = ["Ken McGrady <ken.mcgrady@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.8,!=3.9.7"
+numpy = "^1.24.2"
+scipy = "^1.10.1"
+pandas = "^1.5.3"
+pyevtk = "^1.5.0"
+streamlit = "^1.19.0"
+plotly = "^5.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
